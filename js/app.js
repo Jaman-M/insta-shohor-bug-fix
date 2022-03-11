@@ -148,6 +148,7 @@ const displayLikedPosts = () => {
         const div = createPost(post);
         document.getElementById( "liked" ).appendChild(div);
     });
+    document.getElementById('question-ans').style.display='none'
 };
 
 const displayReportedPosts = () => {
@@ -156,6 +157,7 @@ const displayReportedPosts = () => {
         const div = createPost(post);
         document.getElementById( "reported" ).appendChild(div);
     });
+    document.getElementById('question-ans').style.display='none'
 };
 
 const loadPosts = async () =>{
